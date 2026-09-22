@@ -1,0 +1,2 @@
+import{n as e}from"./index-BoPxvYu7.js";import{o as t,s as n}from"./generators-k8123LAy.js";var r=e();function i(){return(0,r.jsx)(`div`,{className:`legend`,children:t.map(e=>(0,r.jsxs)(`span`,{className:`legend-item`,children:[(0,r.jsx)(`span`,{className:`legend-swatch`,style:{background:n[e]}}),e]},e))})}export{i as t};
+//# sourceMappingURL=Legend-Dcz5TGlM.js.map
