@@ -1,0 +1,37 @@
+{
+  "name": "mold3d",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name=mold3d",
+    "pages": "wrangler pages deploy dist --project-name=mold3d"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
+    "3d-force-graph": "^1.80.0",
+    "globe.gl": "^2.46.2",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "three": "^0.186.0",
+    "three-globe": "^2.45.2",
+    "three-spritetext": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "wrangler": "^4.136.2"
+  },
+  "description": "Mold³ — mold DB rows into space. Malackathon 3D viz demos."
+}
